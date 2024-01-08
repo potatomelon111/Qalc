@@ -1,4 +1,5 @@
-# Provided word counts for Ayahs
+# actual code begins on line 6242
+# Word counts for Ayahs
 word_counts = {
     '1:1': 4,
     '1:2': 4,
@@ -6236,7 +6237,6 @@ word_counts = {
     '114:4': 4,
     '114:5': 5,
     '114:6': 3,
-    # Add all your provided word counts here
 }
 
 # Function to calculate total words memorized in given ranges
