@@ -4,10 +4,8 @@
 This program was created by AI, for me, just a means to get pen to paper as someone with horrendous knowledge on programming, because it is after all just a series of algorithms (yet another thing from the Islamic world!)
 
 # Usage
-- begin by downloading qc.py and saving it to a directory of your choice
+- begin by pasting `git clone https://github.com/potatomelon111/Qalc/` in the terminal followed by `cd ~/Qalc` (or if you're on linux, figure it out yourself)
 - ensure python3 is installed however you see fit (I am familliar with, so like to use the scoop package manager on windows)
-- open you terminal
-- change directory by typing the `cd` command in your terminal, e.g. `cd C:/Users/me/Documents`
 - now run the command `python qc.py` (which tells python to run the program)
 - now you can input the verses you know in the standard format of `1:1-7` (first chapter, verse 1 to 7) and repeat this for any range of verses, seperate the ranges with a comma, not a space like so: `1:1-7,114:1-6,112:1-3` etc.
 - hit enter to have your result, small percentage? Don't be disheartened keep on working hard, everyone was there at one point! Large percentage? Well done, keep going!
