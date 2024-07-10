@@ -2,7 +2,7 @@ import quran_data
 
 
 # Function to calculate total words memorized in given ranges
-def calculate_words_memorized(memorized_ranges):
+def calculate_words_memorized(memorized_ranges: list[str]) -> tuple[int, int]:
     total_memorized_words = 0
     total_quran_words = sum(quran_data.word_counts.values())
 
@@ -20,7 +20,7 @@ def calculate_words_memorized(memorized_ranges):
 
 
 # Input the memorized ranges
-def input_memorized_ranges():
+def input_memorized_ranges() -> list[str]:
     memorized_ranges = input("Enter memorized Ayah: ")
     memorized_ranges = memorized_ranges.split(",")
     return memorized_ranges
