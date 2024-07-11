@@ -30,15 +30,8 @@ def calculate_words_memorized(memorized_ranges: list[str]) -> tuple[int, int]:
     return total_memorized_words, total_quran_words
 
 
-# Input the memorized ranges
-def input_memorized_ranges() -> list[str]:
-    memorized_ranges = input("Enter memorized Ayah: ")
-    memorized_ranges = memorized_ranges.split(",")
-    return memorized_ranges
-
-
 # Get user input for memorized ranges
-memorized_ranges = input_memorized_ranges()
+memorized_ranges = input("Enter memorized Ayah: ").split(",")
 
 # Calculate total words memorized and percentage of Quran memorized
 memorized, total_quran = calculate_words_memorized(memorized_ranges)
