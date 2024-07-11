@@ -1,6 +1,5 @@
-# actual code begins on line 6242
 # Word counts for each Surah:Ayah-number
-word_counts = {
+WORD_COUNTS = {
     "1:1": 4,
     "1:2": 4,
     "1:3": 2,
