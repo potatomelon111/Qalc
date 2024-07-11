@@ -49,6 +49,6 @@ memorized, total_quran = calculate_words_memorized(memorized_ranges)
 percentage_memorized = (memorized / total_quran) * 100
 
 # Output results
-print(f"Total words memorized: {memorized}")
-print(f"Total words in the Quran: {total_quran}")
+print(f"Total words memorized: {memorized:,d}")
+print(f"Total words in the Quran: {total_quran:,d}")
 print(f"Percentage of the Quran memorized: {percentage_memorized:.2f}%")
