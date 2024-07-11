@@ -7,9 +7,24 @@ def calculate_words_memorized(memorized_ranges: list[str]) -> tuple[int, int]:
     total_quran_words = sum(quran_data.word_counts.values())
 
     for range_input in memorized_ranges:
-        surah, ayah_range = map(str, range_input.split(":"))
+        # surah, ayah_range = map(str, range_input.split(":"))
+
+        if ":" not in range_input:
+            total_ayahs = len(
+                [
+                    x
+                    for x in quran_data.word_counts.keys()
+                    if int(x.split(":")[0]) == int(range_input)
+                ]
+            )
+            range_input = f"{range_input}:0-{total_ayahs}"
+
+        surah, ayah_range = [str(x) for x in range_input.split(":")]
         surah_num = int(surah)
-        start_ayah, end_ayah = map(int, ayah_range.split("-"))
+
+        # start_ayah, end_ayah = map(int, ayah_range.split("-"))
+
+        start_ayah, end_ayah = [int(x) for x in ayah_range.split("-")]
 
         for ayah_num in range(start_ayah, end_ayah + 1):
             ayah_key = f"{surah_num}:{ayah_num}"
