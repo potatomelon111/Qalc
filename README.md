@@ -1,7 +1,6 @@
 # ㅤقalc
 ㅤقalc (or Qalc for the places where I don't have unicode) is short for Quran Calcultor, and is a program to calculate a decently accurate estimate for the percentage of Quran you have memorised. It uses a word by word bases rather than verse, which rewards accordingly whether a long verse or short verse has been memorised (in terms of percentage, but of course there is more reward that a program can not show...)
 **This program gives an approximate estimate, as the total word count may differ based on the methodolgy used to count it**
-This program was created **MOSTLY** by AI, and simply serves as a means for me (and now you) to get pen to paper with an idea I had. Further improvements have been made kindly by members of the community, to make the code nicer, and usage simpler.
 # TODO
 - [ ] implement juz-based input (e.g. #30 adds the whole of juz 30)
 - [ ] add the ability to add a range of Surah if learned in order
