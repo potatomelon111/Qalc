@@ -4,6 +4,7 @@
 # TODO
 - [ ] implement juz-based input (e.g. #30 adds the whole of juz 30)
 - [ ] add the ability to add a range of Surah if learned in order
+- [ ] add memory
 # Usage
 - begin by pasting `git clone https://github.com/potatomelon111/Qalc/` in the terminal followed by `cd ~/Qalc` (or if you're on linux, figure it out yourself)
 - ensure python3 is installed however you see fit (I am familliar with, so like to use the scoop package manager on windows)
